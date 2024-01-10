@@ -10,7 +10,7 @@
   background-color: white;
   border-radius: 10px;
   padding: 10px;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: none;
 }
