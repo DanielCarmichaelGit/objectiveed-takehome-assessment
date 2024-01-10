@@ -1,0 +1,9 @@
+.CardView {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  overflow-x: scroll;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+}

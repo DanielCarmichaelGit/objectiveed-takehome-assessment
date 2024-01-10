@@ -1,0 +1,30 @@
+.FilterBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.FilterBarLeft {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.FilterBarRight {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  column-gap: 10px;
+  align-items: end;
+}
+
+.Button {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}

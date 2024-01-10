@@ -1,0 +1,45 @@
+.GroupCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 10px;
+  min-width: 272px;
+  max-width: 272px;
+  height: fit-content;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.GroupCard:hover {
+  cursor: pointer;
+}
+
+.Divider {
+  width: 100%;
+  color: #f1f1f1;
+}
+
+.HeaderRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+}
+
+.Icon {
+  color: purple;
+  transition: 0.2s;
+}
+
+.Icon:hover {
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  transition: 0.2s;
+}

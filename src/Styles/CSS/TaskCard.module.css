@@ -1,0 +1,14 @@
+.TaskCard {
+  height: fit-content;
+  width: 252px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.TaskCard:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}

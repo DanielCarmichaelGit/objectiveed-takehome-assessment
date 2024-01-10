@@ -1,0 +1,47 @@
+.Board {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.BoardOptions {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.BoardContent {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.HighlightedIcon {
+  background-color: white;
+  color: orange;
+}
+
+.BasicIcon {
+  color: #333;
+  height: 50px;
+}
+
+.Icon {
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.Icon:hover {
+  cursor: pointer;
+  color: orange;
+  transition: 0.2s;
+}
